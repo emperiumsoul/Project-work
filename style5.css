@@ -1,0 +1,276 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+
+}
+
+h2 {
+  font-size: 45px;
+  line-height: 50px;
+  color: #222;
+  
+} 
+
+h3 {
+  font-size: 30px;
+  line-height: 14px;
+  color: #222;
+
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 16px;
+  color: #222;
+
+}
+h5{
+  font-size: 30px;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+
+body {
+  width: 100%;
+  background-color: #C9AA6C;
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #C9AA6C;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); 
+  position: sticky;
+  top: 0;
+  left: 0;
+   
+}
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li{
+  list-style: none;
+  padding: 0 20px; 
+  justify-content: space-between;
+}
+
+#navbar li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: #354047;
+  
+}
+
+li:nth-child(2) a {
+  padding-right: 300px;
+  
+
+}
+li:nth-child(3) a {
+  padding-right: 250px;
+  margin-inline: 50px;
+}
+
+li, a, i, .fas fa-user{
+  font-size: 30px;
+}
+
+
+
+
+
+
+/* HOME PAGE */
+#hero {
+  background-image: url("im");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 70px;
+  display: flex;
+  flex-direction: column;
+  
+
+  align-items: flex-start;
+  justify-content: center;;
+}
+
+/* text on home page */
+#hero h2 {
+  padding-bottom: 15px;
+  padding-left: 80px;
+  font-weight: lighter;
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 30px;
+}
+#hero p {
+  font-size: 20px;
+  padding-left: 80px;
+  font-size: 25px;
+}
+#hero h6 {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 40px;
+   font-weight: lighter;
+   padding-left: 180px;
+   padding-bottom: 40px;
+}
+
+/* Image of shop now*/
+#hero button{
+  background-image: url("img/button.png");
+  padding: 14px 100px 14px 65px;
+  margin-left: 120px;
+  background-color: transparent;
+  border: 0;
+}
+
+#product1 {
+  padding: 40px 80px;
+  background-color: #C9AA6C;
+}
+
+#product1 .pro{
+  width: 24%;
+  min-width: 250px;
+  padding: 12px 14px;
+  border: 1px solid #cce7d9;
+  box-shadow: 20px 20px 30px rgba(1, 1, 1, 0.05);
+  margin: 15px 0; 
+  cursor: pointer;
+  transition: 0.2s ease; 
+  
+}
+
+#product1 .pro:hover {
+  box-shadow: 20px 20px 30px rgba(1, 1, 1, 0.09);
+}
+
+#product1 .pro img{
+  width: 100%;
+  border: 1px solid #cce7d9;
+  border-radius: 20px;
+}
+
+#product1 .pro .des{
+ text-align: start;
+ padding: 10px 0;
+ 
+}
+#product1 .pro .des h5 {
+  padding-top: 7px;
+  color:#1a1a1a;
+  font-size: 20px;
+  
+}
+
+#product1 .pro .des i {
+  font-size: 12px;
+
+}
+
+#product1 .pro-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+/* shop the collection*/
+
+#shopcollection {
+  padding: 40px 80px;
+  background-color: #C9AA6C;
+}
+
+#shopcollection .pro-collection {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+#shopcollection .collection {
+  width: 24%;
+  min-width: 250px;
+  padding: 12px 14px;
+  border: 1px solid #cce7d9;
+  box-shadow: 20px 20px 30px rgba(1, 1, 1, 0.05);
+  margin: 15px 0; 
+  cursor: pointer;
+  transition: 0.2s ease; 
+}
+
+#shopcollection .collection img{
+  width: 100%;
+  border: 1px solid #cce7d9;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+#newsletter {
+  padding-left: 100px;
+  color: #fff;
+  background-color: #1a1a1a;
+  justify-content: center;  
+  
+  
+}
+
+#newsletter .form {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+
+#newsletter input {
+  height: 2.8rem;
+  width: 35%;
+  border: 1px solid transparent;
+  border-radius: none;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+
+}
+
+#newsletter .sign {
+    height: 2.8rem;
+    width: 10%;
+}
+#newsletter button {
+      margin-left: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+  color: #ffffffb9;
+  
+}
